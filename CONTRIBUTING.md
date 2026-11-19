@@ -59,7 +59,7 @@ ruff check src tests
 black --check src tests
 ```
 
-CI runs `pytest` on Python 3.10, 3.11 and 3.12, and `ruff` and `black` on Python 3.11. On your first pull request, CI waits for a maintainer to approve the run. If it looks stuck, that queue is on us.
+CI runs `pytest` on Python 3.10, 3.11, 3.12, 3.13 and 3.14, and `ruff` and `black` on Python 3.11. On your first pull request, CI waits for a maintainer to approve the run. If it looks stuck, that queue is on us.
 
 ## Adding or changing a detection rule
 

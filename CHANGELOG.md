@@ -22,6 +22,7 @@ All notable changes to this project are listed here. The format follows [Keep a 
 ### Changed
 
 - Every rule is now tagged with the OWASP Top 10 for Agentic Applications (`owasp-asi01` to `owasp-asi10`) and OWASP Agentic Skills Top 10 (`owasp-ast01` to `owasp-ast10`) risks it relates to, and the README has a new "SkillShield and agentic security" section with the full mapping. Three earlier tags were corrected: SG-003 adds ASI05, SG-007 moves from ASI05 to ASI03, and SG-010 moves from ASI04 to ASI09. If you filter findings by these tags, check your filters.
+- CI and the publish workflow now test on Python 3.13 and 3.14 as well as 3.10 to 3.12, and `pyproject.toml` lists the matching classifiers.
 
 ### Fixed
 
